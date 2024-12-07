@@ -1,4 +1,3 @@
-   pip install gdown 
 import gdown
 
 # Download the file from Google Drive
@@ -74,4 +73,5 @@ data_cleaned = data.dropna()  # Modify this line based on your cleaning strategy
 
 # Optional: Save cleaned data to a new CSV file
 data_cleaned.to_csv('cleaned_data.csv', index=False)
-s
+
+
